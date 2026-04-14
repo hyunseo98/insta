@@ -19,7 +19,7 @@ export default function Profile({ onPostClick }: { onPostClick: (id: number) => 
         <div className="flex items-center justify-between mb-3">
           <div className="p-[2.5px] bg-gradient-to-tr from-yellow-400 via-red-500 to-fuchsia-600 rounded-full shrink-0">
             <div className="p-[2px] bg-white rounded-full">
-              <div className="w-16 h-16 rounded-full overflow-hidden">
+              <div className="w-[80px] h-[80px] rounded-full overflow-hidden">
                 <img src={profile.avatar} alt="Profile" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
               </div>
             </div>
